@@ -1,0 +1,214 @@
+.topnav-searchbox{
+    width: 100%;
+    height: 86px;
+    background-color: #242424;
+}
+
+.topnav{
+    background-color: #242424;
+    border-bottom: 1px solid #202020;
+}
+
+.topnav-logo{
+    float: left;
+   margin-top: 20px;
+}
+
+.topnav-wyy a{
+    line-height: 86px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.topnav-wyy{
+    float: left;
+    margin-left: 8px;
+    margin-right:18px ;
+}
+
+.topnav-nav{
+    float: left;
+}
+
+.topnav-searchbox div{
+    float: left;
+}
+
+.topnav-searchbox div a{
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 86px;
+    padding-left:18px ;
+    padding-right: 18px;
+    box-sizing: border-box;
+}
+
+.topnav-nav div:hover{
+    background-color: #000000;
+}
+
+.topnav-nav div:hover a{
+    color: #ffffff;
+}
+
+.topnav-nav div:nth-child(1){
+    position: relative;
+    background-color: #000000;
+}
+
+.topnav-nav div:nth-child(1) a{
+    color: #ffffff;
+}
+
+.topnav-nav-xsj{
+    position: absolute;
+    font-size: 0;
+    border: 8px solid #c00014;
+    border-left: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 8px solid transparent;   
+    top: 70px;
+    left: 38px;      
+}
+
+.topnav-nav-last{
+    position: relative;
+}
+
+.topnav-nav-hot{
+    position: absolute;
+    width: 26px;
+    height: 14px;
+    background-color: #c20c0c;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 26px;
+    left: 110px;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    color: #f5d9d9;
+}
+
+
+
+/* 右 */
+.topnav-searchbox p{
+    float: right;
+    margin-right: 26px;
+    font-size: 12px;
+    line-height: 86px;
+    margin-left: 18px;
+}
+
+.topnav-searchbox p a{
+color: #787878;
+}
+
+.topnav-searchbox p a:hover{
+    color: #999999;
+}
+
+.topnav-searchbox a{
+    float: right;
+    /* line-height: 32px; */
+    color: #cccccc;
+    margin-left: 10px;
+}
+
+.topnav-nav-right{
+    margin-top:calc((86px - 32px)/2);
+    width: 90px;
+    height: 32px;
+    border: 1px solid #4f4f4f;
+    line-height:32px ;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.topnav-searchbox a:hover div{
+    border: 1px solid #cccccc;
+    color: #ffffff;
+}
+
+.topnav-searchbox .topnav-nav-input{
+    float: right;
+    width: 158px;
+    height: 32px;
+    margin-top: calc((86px - 32px)/2);
+    line-height: 32px;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.topnav-nav-input i{
+    float: left;
+    margin-left: 8px;
+}
+
+.topnav-nav-input input{
+    float: left;
+    width: 130px;
+    height: 18px;
+    color: #9b9b9b;
+    border: 0;
+    margin-top: calc((32px - 18px)/2);
+}
+
+
+/* 第二排 推荐 */
+.recommend{
+    width: 100%;
+    height: 34px;
+    border-bottom: 4px solid #a40011;
+    background-color: #c20c0c;
+}
+
+.recommend-box{
+    margin-left: 198px;
+    font-size: 12px;
+}
+
+.recommend-box li{
+    float: left;
+    height: 20px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    line-height: 20px;
+}
+
+.recommend-box li:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.recommend-box li:hover{
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.recommend-box ul{
+    float: left;
+ 
+}
+
+.recommend-box li a{
+    color: #ffffff;
+}
+
+.recommend-box li:nth-child(3){
+    position: relative;
+}
+
+.R{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 1px;
+    left: 37px;
+}
