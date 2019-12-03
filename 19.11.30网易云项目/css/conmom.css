@@ -2,3 +2,9 @@
     width: 1152px;
     margin: 0 auto;
 }
+
+.newcontainer{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}

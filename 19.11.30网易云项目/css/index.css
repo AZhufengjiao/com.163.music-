@@ -84,7 +84,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     top: 26px;
-    left: 110px;
+    left: 100px;
     font-size: 8px;
     line-height: 14px;
     text-align: center;
@@ -112,9 +112,7 @@ color: #787878;
 
 .topnav-searchbox a{
     float: right;
-    /* line-height: 32px; */
     color: #cccccc;
-    margin-left: 10px;
 }
 
 .topnav-nav-right{
@@ -212,3 +210,246 @@ color: #787878;
     top: 1px;
     left: 37px;
 }
+
+
+/* 第三排 轮播图 */
+.slideshow{
+    width: 100%;
+    height: 284px;
+    border-bottom:1px solid #ada4a5 ;
+    background-image: url(../images/Snipaste_2019-12-03_09-04-33.png);
+}
+
+.slideshow .bj-left {
+    float: left;
+    height: 284px;
+}
+
+.slideshow .bj-left img{
+    float: left;
+    width: 730px;
+    height: 284px;
+}
+
+.slideshow .bj-right {
+    float: right;
+    width: 250px;
+    height: 284px;
+    background-image:url(../images/download.png) ;
+}
+
+.slideshow .newcontainer{
+    height:284px ;
+}
+
+
+/* 精灵图 */
+/* 左 */
+.slideshow .jl-left{
+    position: absolute;
+    top: 106px;
+    left: -64px;
+    background-image: url(../images/banner.png);
+    width: 37px;
+    height: 63px;
+    background-position: 0 -359px;
+}
+
+.slideshow .jl-left:hover{
+    background-image: url(../images/banner.png);
+    background-position: 0 -430px;
+}
+
+/* 右 */
+.slideshow .jl-right{
+    position: absolute;
+    top: 106px;
+    left: 1000px;
+    background-image: url(../images/banner.png);
+    width: 37px;
+    height: 63px;
+    background-position: 0 -507px;
+}
+
+.slideshow .jl-right:hover{
+    background-image: url(../images/banner.png);
+    background-position: 0 -578px;
+}
+
+/* 下 */
+.slideshow-sli{
+    position: absolute;
+    top: 258px;
+    left: 0;
+    height: 20px;
+    width: 730px;
+    text-align: center;
+}
+
+.slideshow-sli ul{
+    display: inline-block;
+}
+
+.slideshow-sli ul li{
+    display: inline-block;
+}
+
+.slideshow-sli ul li a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/banner.png);
+    background-position: 0 -349px;
+}
+
+.slideshow-sli ul li a:hover{
+    background-image: url(../images/banner.png);
+    background-position: -17px -349px;
+}
+
+.slideshow-sli ul li:nth-child(1) a{
+    background-image: url(../images/banner.png);
+    background-position: -17px -349px;
+}
+
+.slideshow .bj-right p{
+    color: #8d8d8d;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bj-right-button{
+    display: inline-block;
+    margin-top: 184px;
+    margin-left: 20px;
+    width: 214px;
+    height: 54px;
+    background-image: url(../images/download.png);
+    background-position: -19px -186px;
+}
+
+.bj-right-button:hover{
+    background-position: 0 -290px;
+
+}
+
+/* 第四排 热门推荐 */
+.hot{
+    width: 100%;
+    height: 2000px;
+    background-color: #f5f5f5;
+}
+
+.hot .newcontainer{
+    height: 2000px;
+}
+
+/* 左边,上部导航 */
+.hot-left{
+    border-left: 1px solid #dddddd;
+    width: 729px;
+    height: 2000px;
+    background-color: #ffffff;
+}
+
+.hot-left-top-nav{
+    width: 690px;
+    background-color: violet;
+}
+
+.hot-left-top p,
+.hot-left-top a{
+    float: left;
+}
+
+.hot-left-top{
+    width: 690px;
+    height: 36px;
+    line-height: 36px;
+    padding-top: 17px;
+    margin-left: 20px;
+    border-bottom: 2px solid #c10d0c;
+    margin-bottom: 20px;
+}
+
+.hot-left-top p{
+    font-size:20px;
+    margin: 0 10px 0 10px;
+}
+
+.hot-left-top li{
+    float: left;
+    color: #d2d2d2;
+}
+
+.hot-left-top a{
+    margin: 0 12px;
+    color:#6f6f6f;
+}
+
+.yuan {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background-image: url(../images/index.png);
+    background-position: -234px -164px;
+}
+
+/* top-右 */
+.hot-left-top .jt{
+    float: right;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/index.png);
+    background-position: 0 -240px;
+    margin-right: 12px; 
+    margin-left: 0;
+    margin-top: calc((36px - 12px) / 2);
+}
+
+.hot-left-top h3{
+    color: #767676;
+    float: right;
+    margin-right: 6px;
+    font-weight: 400;
+
+}
+
+.hot-left-top h3 a{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hot-left-top a:hover{
+    text-decoration: underline;
+}
+
+/* 热门 视频 */
+.hot-left-video{
+    position: relative;
+    width: 690px;
+    height: 484px;
+    background-color: turquoise;
+}
+
+.hot-left-video div{
+    float: left;
+    width: 140px;
+    height: 210px;
+    margin-left: 32px;
+    margin-bottom: 22px;
+}
+
+.hot-left-video div a{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.hot-left-video div a:hover{
+    text-decoration: underline;
+}
+
