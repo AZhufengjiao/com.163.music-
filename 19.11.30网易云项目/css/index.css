@@ -336,19 +336,19 @@ color: #787878;
 /* 第四排 热门推荐 */
 .hot{
     width: 100%;
-    height: 2000px;
+    height: 1434px;
     background-color: #f5f5f5;
 }
 
 .hot .newcontainer{
-    height: 2000px;
+    height: 1434px;
 }
 
 /* 左边,上部导航 */
 .hot-left{
     border-left: 1px solid #dddddd;
     width: 729px;
-    height: 2000px;
+    height: 1434px;
     background-color: #ffffff;
 }
 
@@ -431,10 +431,10 @@ color: #787878;
     position: relative;
     width: 690px;
     height: 484px;
-    background-color: turquoise;
 }
 
 .hot-left-video div{
+    position: relative;
     float: left;
     width: 140px;
     height: 210px;
@@ -444,12 +444,438 @@ color: #787878;
 
 .hot-left-video div a{
     display: inline-block;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 13px; 
     color: #000000;
+
 }
 
 .hot-left-video div a:hover{
     text-decoration: underline;
 }
 
+.program{
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    margin-right: 5px;
+    margin-top: 2px;
+    background-image: url(../images/icon.png);
+    background-position: -31px -658px;
+}
+
+/* 精灵图         以下 */
+/* 皇冠 */
+.huangg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/icon2.png);
+    background-position: -135px -220px;
+}
+
+/* 图上背景 */
+.img-back-g{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/coverall.png);
+    background-position:0 0;
+}
+
+/* 图下 */
+.img-bottom{
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-image: url(../images/coverall.png);
+    background-position: 0 -537px;
+}
+
+.bfl{
+    float: left;
+    width: 14px;
+    height: 11px;
+    background-image: url(../images/iconall.png);
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+}
+
+.img-bottom b{
+    float: left;
+    margin-top: 7px;
+    font-size: 12px;
+    color: #cccccc;
+    font-weight: 400;
+}
+
+.img-bottom .bof{
+   position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background-image: url(../images/iconall.png);
+    background-position: 0 0;
+}
+
+
+
+
+/* 新品上架 */
+.xp{
+    width: 690px;
+}
+
+.xp p{
+    float: left;
+    font-size:20px;
+    margin: 0 10px 0 10px;
+}
+
+.xp{
+    width: 690px;
+    height: 36px;
+    line-height: 36px;
+    padding-top: 17px;
+    margin-left: 20px;
+    border-bottom: 2px solid #c10d0c;
+    margin-bottom: 20px;
+}
+
+.yuan {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background-image: url(../images/index.png);
+    background-position: -234px -164px;
+}
+
+/* top-右 */
+.xp .jt{
+    float: right;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/index.png);
+    background-position: 0 -240px;
+    margin-right: 12px; 
+    margin-left: 0;
+    margin-top: calc((36px - 12px) / 2);
+}
+
+.xp h3{
+    color: #767676;
+    float: right;
+    margin-right: 6px;
+    font-weight: 400;
+}
+
+.hot-left-top h3 a{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hot-left-top a:hover{
+    text-decoration: underline;
+}
+
+/* 新碟上架 */
+.hot .hot-left .plate{
+    width: 690px;
+    height: 186px;
+    background-color: #f5f5f5;
+    border: 1px solid #d3d3d3;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.plate ul{
+    width: 644px;
+    height: 175px;
+    margin-left: 16px;
+}
+
+.plate ul li{
+    position: relative;
+    float: left;
+    width: 116px;
+    height: 174px;
+    margin-left: 12px;
+}
+
+.plate-img-box{
+    height: 100px;
+    width: 116px;
+}
+
+/* .plate-img-box img{
+    box-shadow: 0 4px 1spx rgba(0, 0, 0, 0.1);
+} */
+
+.plate-img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 28px;
+    margin-left: 12px;
+    background-image: url(../images/coverall.png);
+    background-position: 0 -570px;
+}
+
+.action{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 104px;
+    left: 88px;
+    background-image: url(../images/iconall.png);
+    background-position: -80px 0px;
+    display: none;
+}
+
+.plate li:hover .action{
+    display: block;
+}
+
+.plate-img-box a  :hover{
+    text-decoration: underline;
+}
+
+.plate-img-box-a1{
+    display: inline-block;
+    width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #000000;
+}
+
+.plate-img-box-a2{
+    display: inline-block;
+    color: #666666;
+}
+
+/* 榜单 */
+.List{
+    width: 690px;
+}
+
+.List p{
+    float: left;
+    font-size:20px;
+    margin: 0 10px 0 10px;
+}
+
+.List{
+    width: 690px;
+    height: 36px;
+    line-height: 36px;
+    padding-top: 17px;
+    margin-left: 20px;
+    border-bottom: 2px solid #c10d0c;
+    margin-bottom: 20px;
+}
+
+.yuan {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+    background-image: url(../images/index.png);
+    background-position: -234px -164px;
+}
+
+/* top-右 */
+.List .jt{
+    float: right;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/index.png);
+    background-position: 0 -240px;
+    margin-right: 12px; 
+    margin-left: 0;
+    margin-top: calc((36px - 12px) / 2);
+}
+
+.List h3{
+    color: #767676;
+    float: right;
+    margin-right: 6px;
+    font-weight: 400;
+}
+
+.List h3 a{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.List a:hover{
+    text-decoration: underline;
+}
+
+/* 榜单榜 */
+.bd{
+    width: 684px;
+    height: 469px;
+    margin-left: 21px;
+    border: 1px solid #d7d7d7;
+}
+
+.bd dl{
+    float: left;
+    width: 227px;
+    height: 468px;
+    border-right: 1px solid #c8c8c8;
+}
+
+.bd dt{
+    background-color: #f4f4f4;
+    width: 227px;
+    height: 118px;
+}
+
+.bd dt img{
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.bd dd{
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+}
+
+.bd dd:nth-child(2n-1){
+    background-color: #f4f4f4;
+}    
+
+.bd dd:nth-child(2n){
+    background-color: #e8e8e8;
+}
+
+.bd-dt-right{
+ float: right;
+    width: 118px;
+    height: 60px;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bd-dt-right p:hover{
+    text-decoration: underline;
+}
+
+.bd-dt-right-action{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    background-image: url(../images/index.png);
+    background-position: -267px -205px;
+}
+
+.bd-dt-right-action:hover{
+    background-image: url(../images/index.png);
+    background-position: -267px -235px;
+}
+
+.bd-dt-right-wj{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(../images/index.png);
+    background-position: -300px -205px;
+}
+
+.bd-dt-right-wj:hover{
+    background-image: url(../images/index.png);
+    background-position: -300px -235px;
+}
+
+.bd dd span{
+    float: left;
+   margin: 0 12px 0 28px;
+   font-size: 12px;
+   color: #666666;
+}
+
+dl dd .red{
+    color: #c93c3b;
+}
+
+.bd dd a{
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bd dd a:hover{
+    text-decoration: underline;
+}
+
+.bd dd .qb{
+    float: right;
+    font-size: 12px;
+    margin-left: 30px;
+    color: #0a0a0a;
+}
+
+.bd dd .overflow{
+    float: right;
+    width: 82px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+
+.bd dd .a1{
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    background-image: url(../images/index.png);
+    background-position: -267px -288px;
+}
+
+.bd dd .a2{
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-top: 2px;
+    background-image: url(../images/icon.png);
+    background-position: -22px -700px;
+}
+
+.bd dd .a3{
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    background-image: url(../images/index.png);
+    background-position: -297px -288px;
+}
+
+/* 最最最后一排 */
+.music-bottom{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+    background-color: #f2f2f2;
+}
