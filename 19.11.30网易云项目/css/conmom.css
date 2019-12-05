@@ -1,10 +1,29 @@
-.container{
+.container {
     width: 1152px;
     margin: 0 auto;
 }
 
-.newcontainer{
+.newcontainer {
     position: relative;
     width: 980px;
     margin: 0 auto;
+}
+
+.music-bottom .newcontainer {
+    height: 100px;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
