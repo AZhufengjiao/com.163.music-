@@ -1,0 +1,319 @@
+/* 顶部搜索 */
+.top-search {
+    height: 73px;
+    background: #fff;
+}
+
+.top-search-left {
+    float: left;
+    width: 290px;
+    height: 70px;
+}
+
+.top-search-left a {
+    display: inline-block;
+    width: 290px;
+    height: 70px;
+    background-image: url(../shopping-images/modules.png);
+    background-position: 0px -48px;
+}
+
+.top-search-input {
+    float: left;
+    width: 300px;
+    height: 38px;
+    margin-top: 16px;
+    margin-left: 334px;
+    background-image: url(../shopping-images/modules.png);
+    background-position: 0px -0px;
+}
+
+.top-search-sp {
+    position: relative;
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 17px 0 0 41px;
+}
+
+.top-search-sp a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url(../shopping-images/modules.png);
+    background-position: -110px -158px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.top-search-sp a span {
+    position: absolute;
+    top: -8px;
+    left: 26px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../shopping-images/modules.png);
+    background-position: -156px -158px;
+}
+
+.top-search-dl {
+    float: left;
+    width: 62px;
+    height: 36px;
+    margin: 15px 0 0 37px;
+}
+
+.top-search-dl div {
+    float: left;
+    width: 36px;
+    height: 84px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.top-search-dl span {
+    position: relative;
+    float: left;
+    width: 24px;
+    height: 15px;
+    margin-top: 10px;
+    background-image: url(../shopping-images/bottom-sj.png);
+}
+
+.top-search-dl span:hover {
+    background-image: url(../shopping-images/top-sj.png);
+}
+
+.top-search-dl:hover ul {
+    display: block;
+}
+
+.top-search-dl:hover span {
+    background-image: url(../shopping-images/top-sj.png);
+
+}
+
+.top-search-dl:hover div {
+    display: block;
+}
+
+.top-search-dl-hidden {
+    position: absolute;
+    bottom: -184px;
+    right: -42px;
+    width: 160px;
+    height: 182px;
+    display: none;
+    z-index: 3;
+}
+
+.top-search-dl .top-search-dl-wsj {
+    position: absolute;
+    top: 27px;
+    left: -94px;
+    z-index: 100;
+    width: 160px;
+    height: 18px;
+    /* transition: all 1s; */
+    background-image: url(../shopping-images/modules.png);
+    background-position: 0px -128px;
+    display: none;
+    z-index: 3;
+}
+
+.top-search-dl-hidden li {
+    width: 160px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+.top-search-dl-hidden li:hover {
+    background-color: #f8f8f8;
+}
+
+.top-search-dl-hidden .tu1 {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 15px 15px 0 25px;
+}
+
+.top-search-dl-hidden p {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top-search-dl-hidden .tu2 {
+    float: left;
+    width: 18px;
+    height: 16px;
+    margin: 12px 15px 0 25px;
+    background-image: url(../shopping-images/logins.png);
+    background-position: -84px -0px;
+}
+
+.top-search-dl-hidden .tu3 {
+    float: left;
+    width: 18px;
+    height: 16px;
+    margin: 12px 15px 0 25px;
+    background-image: url(../shopping-images/logins.png);
+    background-position: -112px -0px;
+}
+
+
+/* 第二排 背景图片 */
+.backgr {
+    position: relative;
+    height: 478px;
+    width: 100%;
+    background-color: #0c1c3d;
+}
+
+.backgr .sp-com {
+    height: 478px;
+    background-image: url(../shopping-images/carousel-backg02.jpg);
+}
+
+.backgr-left-jiao {
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    top: 200px;
+    left: 10px;
+    background-image: url(../shopping-images/banner.png);
+    background-position: 0px -360px;
+}
+
+.backgr-left-jiao:hover {
+    background-image: url(../shopping-images/banner.png);
+    background-position: 0px -430px;
+}
+
+.backgr-right-jiao {
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    bottom: 220px;
+    right: 18px;
+    background-image: url(../shopping-images/banner.png);
+    background-position: 0 -508px;
+}
+
+.backgr-right-jiao:hover {
+    background-image: url(../shopping-images/banner.png);
+    background-position: 0px -578px;
+}
+
+.backgr .sp-com .backgr-carousel {
+    position: absolute;
+    bottom: 38px;
+    right: 514px;
+    z-index: 3;
+}
+
+.backgr-carousel a {
+    display: inline-block;
+    width: 8px;
+    height: 0px;
+    margin: 0 2px;
+    background-color: #8d8d9b;
+}
+
+.backgr-carousel a:hover img {
+    background-image: url(../shopping-images/dot_hover.png);
+
+}
+
+/* 第三排 */
+.integral {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 40px;
+}
+
+.integral .sp-com {
+    height: 80px;
+    line-height: 80px;
+}
+
+.integral a {
+    float: left;
+    width: 272px;
+    height: 80px;
+}
+
+.integral a div {
+    width: 100px;
+    height: 48px;
+    margin-left: 82px;
+}
+
+.integral a div img {
+    float: left;
+    margin-top: 18px;
+}
+
+.integral a div p {
+    float: left;
+    margin-left: 4px;
+}
+
+.integral .integral-img-jf {
+    float: left;
+    width: 48px;
+    height: 48px;
+    background-image: url(../shopping-images/jifen.png);
+    margin-left: 0;
+}
+
+.integral-zh {
+    margin-top: 18px;
+}
+
+/* 第四排 */
+.youth {
+    width: 100%;
+    height: 300px;
+}
+
+.youth-img01 {
+    float: left;
+    width: 543px;
+    height: 300px;
+}
+
+.youth-img01:nth-child(2) {
+    margin-left: 14px;
+}
+
+/* 第五排 */
+.recommend {
+    width: 100%;
+    height: 100px;
+}
+
+.recommend p {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-top: 55px;
+
+}
+
+/* 第六排 */
+.commodity {
+    width: 100%;
+    height: 775px;
+}
+
+.commodity .commodity-box {
+    float: left;
+    width: 263px;
+    height: 382px;
+    padding-right: 12px;
+}
