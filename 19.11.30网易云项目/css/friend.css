@@ -308,13 +308,13 @@
 
 .back a {
     position: absolute;
-    bottom: 72px;
-    right: 210px;
-    width: 160px;
-    height: 48px;
+    bottom: 74px;
+    right: 205px;
+    width: 168px;
+    height: 44px;
 }
 
 .back a:hover {
     background-image: url(../images/mymusic.png);
-    background-position: 0px -430px;
+    background-position: 1px -278px;
 }

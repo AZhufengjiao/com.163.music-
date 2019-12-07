@@ -242,19 +242,27 @@
 
 .integral a {
     float: left;
-    width: 272px;
+    width: 275px;
     height: 80px;
 }
 
 .integral a div {
+    margin-top: 8px;
     width: 100px;
-    height: 48px;
+    height: 65px;
     margin-left: 82px;
+    line-height: 65px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 88px;
+}
+
+.integral a:nth-child(4) div {
+    border: 0;
 }
 
 .integral a div img {
     float: left;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .integral a div p {
@@ -268,6 +276,8 @@
     height: 48px;
     background-image: url(../shopping-images/jifen.png);
     margin-left: 0;
+    padding: 0;
+    border: 0;
 }
 
 .integral-zh {
@@ -284,6 +294,11 @@
     float: left;
     width: 543px;
     height: 300px;
+    margin-right: 14px;
+}
+
+.youth a:nth-child(2) img {
+    margin-right: 0;
 }
 
 .youth-img01:nth-child(2) {
@@ -316,4 +331,28 @@
     width: 263px;
     height: 382px;
     padding-right: 12px;
+}
+
+.commodity-box-bottom a:hover {
+    text-decoration: underline;
+}
+
+.commodity-box-bottom {
+    width: 263px;
+    height: 38px;
+}
+
+.commodity-box-bottom span {
+    float: left;
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #d74d45;
+}
+
+.commodity-box-bottom a {
+    float: left;
+    font-size: 13px;
 }
