@@ -327,6 +327,7 @@
 }
 
 .commodity .commodity-box {
+    position: relative;
     float: left;
     width: 263px;
     height: 382px;
@@ -349,10 +350,36 @@
     line-height: 18px;
     text-align: center;
     font-size: 13px;
+    color: #d74d45;
     border: 1px solid #d74d45;
+    margin-right: 6px;
+    margin-bottom: 10px;
 }
 
 .commodity-box-bottom a {
     float: left;
     font-size: 13px;
 }
+
+.commodity-box p {
+    color: #da4c3e;
+    text-align: center;
+    font-size: 14px;
+}
+
+.commodity-box-tejia {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    background-color: #d33a31;
+    border-radius: 50px;
+}
+
+.commondity-box div.commondity-box-tejia-left {
+    color: #fff;
+    z-index: 3;
+}
+
+.commindity-box-tejia-bottom {}
