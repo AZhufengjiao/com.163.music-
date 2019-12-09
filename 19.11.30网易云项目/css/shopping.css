@@ -293,8 +293,67 @@
 
 /* 第四排 */
 .youth {
+    position: relative;
     width: 100%;
     height: 300px;
+}
+
+.shopping-right-po {
+    position: fixed;
+    top: 108px;
+    right: 96px;
+    width: 62px;
+    height: 338px;
+    border: 1px solid #999999;
+}
+
+.shopping-right-po a {
+    display: block;
+    height: 58px;
+    width: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: 1px;
+    line-height: 20px;
+    text-align: center;
+    color: #666666;
+}
+
+.shopping-right-po div {
+    display: block;
+    height: 58px;
+    width: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: 1px;
+    line-height: 20px;
+    text-align: center;
+    color: #666666;
+}
+
+.shopping-right-po .po04 {
+    background-image: url(../shopping-images/po04.png);
+    background-repeat: no-repeat;
+    background-position: 10px 0;
+    line-height: 90px;
+}
+
+.shopping-right-po .po05 .head {
+    width: 20px;
+    height: 20px;
+    background-image: url(../shopping-images/totop.png);
+    background-position: 0px -101px;
+    line-height: 90px;
+    border-bottom: 0;
+    margin: 10px 0 5px 19px;
+    box-sizing: border-box;
+}
+
+.shopping-right-po .po06 {
+    height: 32px;
+    border-bottom: 0;
+    width: 60px;
+    height: 32px;
+    background-image: url(../shopping-images/totop.png);
+    background-position: -70px -0px;
 }
 
 .youth-img01 {
@@ -345,6 +404,12 @@
     text-decoration: underline;
 }
 
+.commodity-box p {
+    color: #d33a31;
+    font-size: 14px;
+    text-align: center;
+}
+
 .commodity-box-bottom {
     width: 263px;
     height: 38px;
@@ -353,7 +418,6 @@
 
 .commodity-box-bottom span {
     float: left;
-    width: 32px;
     height: 18px;
     line-height: 18px;
     text-align: center;
@@ -367,12 +431,25 @@
 .commodity-box-bottom a {
     float: left;
     font-size: 13px;
+    height: 30px;
+
+    text-overflow: ellipsis;
 }
 
-.commodity-box p {
-    color: #da4c3e;
+.commodity-box-tejia .commondity-box-tejia-left {
+    color: #fff;
     text-align: center;
     font-size: 14px;
+    margin-top: 16px;
+
+}
+
+.commodity-box-tejia .commindity-box-tejia-bottom {
+    color: #f2c4c1;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2px;
+    text-decoration: line-through;
 }
 
 .commodity-box-tejia {
@@ -390,4 +467,215 @@
     z-index: 3;
 }
 
-.commindity-box-tejia-bottom {}
+
+
+/* 第七排 */
+.album {
+    width: 100%;
+    height: 180px;
+}
+
+.album .sp-com {
+    height: 180px;
+    background-color: #f9f9f9;
+}
+
+.album-left {
+    position: relative;
+    float: left;
+    width: 700px;
+    height: 180px;
+    margin-left: 70px;
+}
+
+.album-right {
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 120px;
+    margin: 30px 0 0 0;
+}
+
+.album-left i {
+    float: left;
+    width: 100%;
+    height: 46px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 34px;
+    /* line-height: 46px; */
+}
+
+.album-left i img {
+    position: absolute;
+    top: 26px;
+    left: 3px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.album-left p {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 100px;
+}
+
+.album-left h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.album-right .img01 {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.album-right .img02 {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+.album-right span {
+    position: absolute;
+    top: 0;
+    left: 175px;
+    width: 35px;
+    height: 120px;
+    background-image: url(../shopping-images/pointlist.png);
+    background-position: 0px -73px;
+}
+
+/* 第九排 */
+.commodity-box .tu2 {
+    width: 262px;
+    height: 262px;
+}
+
+.ca {
+    height: 1550px;
+}
+
+/* 最后面 */
+/* 最最最后一排 */
+.music-bottom {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+    background-color: #f2f2f2;
+}
+
+.music-bottom-one-row {
+    margin-top: 34px;
+}
+
+.music-bottom-one-row a {
+    float: left;
+    color: #a2a2a2;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.music-bottom-one-row a:hover {
+    text-decoration: underline;
+}
+
+.music-bottom-one-row a:nth-child(1) {
+    margin-left: 0;
+}
+
+.music-bottom-one-row li {
+    float: left;
+    color: #d1d1d1;
+}
+
+.music-bottom-p1 {
+    color: #666666;
+    margin-top: 10px;
+}
+
+.music-bottom-p1:hover a,
+.music-bottom-p2:hover a {
+    text-decoration: underline;
+}
+
+.music-bottom-p2 {
+    color: #666666;
+    margin-top: 10px;
+}
+
+.music-bottom-left {
+    float: left;
+}
+
+.music-bottom-right {
+    float: right;
+    width: 328px;
+    height: 72px;
+    margin-top: 20px;
+}
+
+.music-bottom-right span {
+    float: right;
+
+}
+
+.music-bottom-right-box .music-bottom-right-img1 {
+    width: 47px;
+    height: 45px;
+    background-image: url(../shopping-images/foot_enter.png);
+    background-position: -60px -78px;
+    background-size: 110px 450px;
+}
+
+.music-bottom-right-box {
+    float: left;
+    width: 50px;
+    height: 60px;
+    margin-right: 40px;
+}
+
+.music-bottom-right-box li {
+    display: block;
+    font-size: 12px;
+    margin-top: 52px;
+    white-space: nowrap;
+    text-align: center;
+    color: #858585;
+}
+
+.music-bottom-right-box:nth-child(4) {
+    margin-right: 8px;
+}
+
+.music-bottom-right-box .music-bottom-right-img2 {
+    width: 48px;
+    height: 45px;
+    background-image: url(../shopping-images/foot_enter.png);
+    background-position: 0 -78px;
+    background-size: 110px 450px;
+}
+
+.music-bottom-right-box .music-bottom-right-img3 {
+    width: 47px;
+    height: 45px;
+    background-image: url(../shopping-images/foot_enter.png);
+    background-position: -2px 0;
+    background-size: 110px 450px;
+}
+
+.music-bottom-right-box .music-bottom-right-img4 {
+    width: 47px;
+    height: 45px;
+    background-image: url(../shopping-images/foot_enter.png);
+    background-position: -60px 0;
+    background-size: 110px 450px;
+}
