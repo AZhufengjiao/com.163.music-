@@ -28,6 +28,13 @@
     background-position: 0px -0px;
 }
 
+.top-search-input input {
+    margin: 2px 0 0 37px;
+    height: 29px;
+    width: 244px;
+    border: 0;
+}
+
 .top-search-sp {
     position: relative;
     float: left;
@@ -341,6 +348,7 @@
 .commodity-box-bottom {
     width: 263px;
     height: 38px;
+    margin-top: 8px;
 }
 
 .commodity-box-bottom span {
