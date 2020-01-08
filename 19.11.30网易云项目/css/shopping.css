@@ -14,7 +14,7 @@
     display: inline-block;
     width: 290px;
     height: 70px;
-    background-image: url(../shopping-images/modules.png);
+    background-image: url(../upload/modules.png);
     background-position: 0px -48px;
 }
 
@@ -24,7 +24,7 @@
     height: 38px;
     margin-top: 16px;
     margin-left: 334px;
-    background-image: url(../shopping-images/modules.png);
+    background-image: url(../upload/modules.png);
     background-position: 0px -0px;
 }
 
@@ -47,7 +47,7 @@
     display: inline-block;
     width: 36px;
     height: 36px;
-    background-image: url(../shopping-images/modules.png);
+    background-image: url(../upload/modules.png);
     background-position: -110px -158px;
     line-height: 20px;
     text-align: center;
@@ -59,7 +59,7 @@
     left: 26px;
     width: 18px;
     height: 18px;
-    background-image: url(../shopping-images/modules.png);
+    background-image: url(../upload/modules.png);
     background-position: -156px -158px;
 }
 
@@ -85,11 +85,11 @@
     width: 24px;
     height: 15px;
     margin-top: 10px;
-    background-image: url(../shopping-images/bottom-sj.png);
+    background-image: url(../upload/bottom-sj.png);
 }
 
 .top-search-dl span:hover {
-    background-image: url(../shopping-images/top-sj.png);
+    background-image: url(../upload/top-sj.png);
 }
 
 .top-search-dl:hover ul {
@@ -97,7 +97,7 @@
 }
 
 .top-search-dl:hover span {
-    background-image: url(../shopping-images/top-sj.png);
+    background-image: url(../upload/top-sj.png);
 
 }
 
@@ -123,7 +123,7 @@
     width: 160px;
     height: 18px;
     /* transition: all 1s; */
-    background-image: url(../shopping-images/modules.png);
+    background-image: url(../upload/modules.png);
     background-position: 0px -128px;
     display: none;
     z-index: 3;
@@ -157,7 +157,7 @@
     width: 18px;
     height: 16px;
     margin: 12px 15px 0 25px;
-    background-image: url(../shopping-images/logins.png);
+    background-image: url(../upload/logins.png);
     background-position: -84px -0px;
 }
 
@@ -166,7 +166,7 @@
     width: 18px;
     height: 16px;
     margin: 12px 15px 0 25px;
-    background-image: url(../shopping-images/logins.png);
+    background-image: url(../upload/logins.png);
     background-position: -112px -0px;
 }
 
@@ -181,7 +181,7 @@
 
 .backgr .sp-com {
     height: 478px;
-    background-image: url(../shopping-images/carousel-backg02.jpg);
+    background-image: url(../upload/carousel-backg02.jpg);
 }
 
 .backgr-left-jiao {
@@ -190,12 +190,12 @@
     height: 63px;
     top: 200px;
     left: 10px;
-    background-image: url(../shopping-images/banner.png);
+    background-image: url(../upload/banner.png);
     background-position: 0px -360px;
 }
 
 .backgr-left-jiao:hover {
-    background-image: url(../shopping-images/banner.png);
+    background-image: url(../upload/banner.png);
     background-position: 0px -430px;
 }
 
@@ -205,12 +205,12 @@
     height: 63px;
     bottom: 220px;
     right: 18px;
-    background-image: url(../shopping-images/banner.png);
+    background-image: url(../upload/banner.png);
     background-position: 0 -508px;
 }
 
 .backgr-right-jiao:hover {
-    background-image: url(../shopping-images/banner.png);
+    background-image: url(../upload/banner.png);
     background-position: 0px -578px;
 }
 
@@ -230,7 +230,7 @@
 }
 
 .backgr-carousel a:hover img {
-    background-image: url(../shopping-images/dot_hover.png);
+    background-image: url(../upload/dot_hover.png);
 
 }
 
@@ -281,7 +281,7 @@
     float: left;
     width: 48px;
     height: 48px;
-    background-image: url(../shopping-images/jifen.png);
+    background-image: url(../upload/jifen.png);
     margin-left: 0;
     padding: 0;
     border: 0;
@@ -330,7 +330,7 @@
 }
 
 .shopping-right-po .po04 {
-    background-image: url(../shopping-images/po04.png);
+    background-image: url(../upload/po04.png);
     background-repeat: no-repeat;
     background-position: 10px 0;
     line-height: 90px;
@@ -339,7 +339,7 @@
 .shopping-right-po .po05 .head {
     width: 20px;
     height: 20px;
-    background-image: url(../shopping-images/totop.png);
+    background-image: url(../upload/totop.png);
     background-position: 0px -101px;
     line-height: 90px;
     border-bottom: 0;
@@ -352,7 +352,7 @@
     border-bottom: 0;
     width: 60px;
     height: 32px;
-    background-image: url(../shopping-images/totop.png);
+    background-image: url(../upload/totop.png);
     background-position: -70px -0px;
 }
 
@@ -549,7 +549,7 @@
     left: 175px;
     width: 35px;
     height: 120px;
-    background-image: url(../shopping-images/pointlist.png);
+    background-image: url(../upload/pointlist.png);
     background-position: 0px -73px;
 }
 
@@ -631,7 +631,7 @@
 .music-bottom-right-box .music-bottom-right-img1 {
     width: 47px;
     height: 45px;
-    background-image: url(../shopping-images/foot_enter.png);
+    background-image: url(../upload/foot_enter.png);
     background-position: -60px -78px;
     background-size: 110px 450px;
 }
@@ -659,7 +659,7 @@
 .music-bottom-right-box .music-bottom-right-img2 {
     width: 48px;
     height: 45px;
-    background-image: url(../shopping-images/foot_enter.png);
+    background-image: url(../upload/foot_enter.png);
     background-position: 0 -78px;
     background-size: 110px 450px;
 }
@@ -667,7 +667,7 @@
 .music-bottom-right-box .music-bottom-right-img3 {
     width: 47px;
     height: 45px;
-    background-image: url(../shopping-images/foot_enter.png);
+    background-image: url(../upload/foot_enter.png);
     background-position: -2px 0;
     background-size: 110px 450px;
 }
@@ -675,7 +675,7 @@
 .music-bottom-right-box .music-bottom-right-img4 {
     width: 47px;
     height: 45px;
-    background-image: url(../shopping-images/foot_enter.png);
+    background-image: url(../upload/foot_enter.png);
     background-position: -60px 0;
     background-size: 110px 450px;
 }
