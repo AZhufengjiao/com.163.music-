@@ -224,6 +224,7 @@
     height: 24px;
     margin-top: 10px;
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .client-bottom-left-bottoms-left span {

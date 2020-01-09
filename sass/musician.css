@@ -195,11 +195,11 @@ main .img-1 ul li {
   width: 15px;
   height: 15px;
   margin-top: 8px;
-  background-image: url(../images/下载a.png);
+  background-image: url(/images/axz1111.png);
 }
 
 main .img-1 ul li:hover {
-  background-image: url(../images/下载b.png);
+  background-image: url(/images/bxz000.png);
 }
 
 main .img-2 {
